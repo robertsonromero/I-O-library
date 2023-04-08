@@ -2,8 +2,6 @@
 #ifndef _POSIX_PATH_MAX
 #define _POSIX_PATH_MAX  512
 #endif
-// I pledge my honor that I have abided by the Stevens honor system.
-//  - Robertson Romero
 
 int len(int n){ //finds the numbers of digits
     int digits = 0;
