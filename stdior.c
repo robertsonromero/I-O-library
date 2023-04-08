@@ -50,7 +50,7 @@ char* itos(int n){ //integer to string
     return str;
 }
 
-int fprintfx(char *filename, char format, void *data){
+int fprintfr(char *filename, char format, void *data){
     int fd;
     if (filename[0] == '\0'){
         fd = 1;
@@ -111,7 +111,7 @@ int fprintfx(char *filename, char format, void *data){
     }
 }
 
-int fscanfx(char* filename, char format, void* dst){ //(filename, format, dst)
+int fscanfr(char* filename, char format, void* dst){ //(filename, format, dst)
     struct stat finfo;
     struct dirent *dirp;
     DIR *dir;
