@@ -8,6 +8,6 @@
 #include <limits.h>
 
 
-int fprintfx(char *, char, void *);
-int fscanfx(char*, char, void*);
+int fprintfr(char *, char, void *);
+int fscanfr(char*, char, void*);
 int clean();
